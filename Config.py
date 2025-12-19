@@ -17,13 +17,13 @@ LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/InfinityEra33/Infinity_Music.git")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/infinity_era")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/infinity_era1")
-GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
+GITHUB = os.getenv("GITHUB", "https://github.com/InfinityEra33")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 300))
 PLAYLIST_FETCH_LIMIT = int(os.getenv("PLAYLIST_FETCH_LIMIT", 25))
